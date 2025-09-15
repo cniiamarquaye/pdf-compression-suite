@@ -13,19 +13,49 @@ This is a preliminary version with core functionality established. The tool curr
 - **Manual Setup**: No automated installation process
 
 ## 🛠️ Technical Architecture
-pdf-compression-suite/PCASv1.0/
-├── docs/
-│ ├── CHANGELOG.md ← NEW
-│ ├── CONTRIBUTING.md ← NEW
-│ ├── ISSUE_TEMPLATE.md
-│ ├── README.md
-│ └── TODO.md
-├── src/
-│ ├── compress-test-v002.ps1
-│ ├── FileClean.bat
-│ └── run-ps-script.bat
-└── .gitignore
 
+pdf-compression-suite/
+└── PCASv1.0/
+    ├── docs/
+    │   ├── CHANGELOG.md
+    │   ├── CONTRIBUTING.md
+    │   ├── ISSUE_TEMPLATE.md
+    │   ├── README.md
+    │   └── TODO.md
+    ├── src/
+    │   ├── compress-test-v002.ps1
+    │   ├── FileClean.bat
+    │   └── run-ps-script.bat
+    └── .gitignore
+
+## Project Structure
+
+PCASv1.0/
+├── 📁 docs/                    # Documentation files
+│ ├── 📄 CHANGELOG.md           # Version history and changes
+│ ├── 📄 CONTRIBUTING.md        # Contribution guidelines
+│ ├── 📄 ISSUE_TEMPLATE.md      # Bug report template
+│ ├── 📄 README.md              # Project overview
+│ └── 📄 TODO.md                # Development roadmap
+├── 📁 src/                     # Source code
+│ ├── 📄 compress-test-v002.ps1 # Main compression script
+│ ├── 📄 FileClean.bat          # File management utility
+│ └── 📄 run-ps-script.bat      # Script launcher
+└── 📄 .gitignore               # Git exclusion rules
+
+## File Descriptions
+
+| File | Purpose |
+|------|---------|
+| `src/compress-test-v002.ps1` | Main PowerShell script for PDF compression |
+| `src/FileClean.bat` | Batch file for organizing processed files |
+| `src/run-ps-script.bat` | Launcher for selecting and running PowerShell scripts |
+| `docs/CHANGELOG.md` | Tracks version history and changes |
+| `docs/CONTRIBUTING.md` | Guidelines for future contributors |
+| `docs/ISSUE_TEMPLATE.md` | Template for reporting bugs and issues |
+| `docs/README.md` | Comprehensive project documentation |
+| `docs/TODO.md` | Development roadmap and task tracking |
+| `.gitignore` | Specifies files to exclude from version control |
 
 ## 📋 Core Features
 
@@ -99,4 +129,20 @@ For contributors (when project goes public):
 ```bash
 git clone https://github.com/your-username/pdf-compression-suite.git
 cd pdf-compression-suite
-# Development instructions to be added
+```
+
+## Development instructions to be added
+
+🤝 Future Contribution Guidelines
+When this project reaches public release status, contributions will be welcome in these areas:
+- Configuration Management: Implement flexible configuration system
+- Error Handling: Enhance robustness and user feedback
+- Testing: Create test suite and validation procedures
+- Documentation: Improve user guides and technical documentation
+- UI/UX: Develop graphical interface or web frontend
+
+## 📝 License
+Will be determined before public release. Currently for private use only.
+
+## ⚠️ Disclaimer
+This is development software. Always test with non-critical files and verify output quality before using in production environments.
