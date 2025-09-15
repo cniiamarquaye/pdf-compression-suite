@@ -26,9 +26,11 @@ pdf-compression-suite/
     │   ├── compress-test-v002.ps1
     │   ├── FileClean.bat
     │   └── run-ps-script.bat
-    └── .gitignore
+    ├── .gitignore
+    └── .LICENSE
 
-## Project Structure
+
+## 📁Project Structure
 
 PCASv1.0/
 ├── 📁 docs/                    # Documentation files
@@ -41,7 +43,9 @@ PCASv1.0/
 │ ├── 📄 compress-test-v002.ps1 # Main compression script
 │ ├── 📄 FileClean.bat          # File management utility
 │ └── 📄 run-ps-script.bat      # Script launcher
-└── 📄 .gitignore               # Git exclusion rules
+├── 📄 .gitignore               # Git exclusion rules
+└── 📄 .LICENSE                 # Licensing terms for distribution and use
+
 
 ## File Descriptions
 
@@ -56,6 +60,7 @@ PCASv1.0/
 | `docs/README.md` | Comprehensive project documentation |
 | `docs/TODO.md` | Development roadmap and task tracking |
 | `.gitignore` | Specifies files to exclude from version control |
+| `.LICENSE` | The MIT License. Terms for distribution and use |
 
 ## 📋 Core Features
 
@@ -129,20 +134,33 @@ For contributors (when project goes public):
 ```bash
 git clone https://github.com/your-username/pdf-compression-suite.git
 cd pdf-compression-suite
+## Development instructions to be added
 ```
 
-## Development instructions to be added
+## 🤝 Future Contribution Guidelines
 
-🤝 Future Contribution Guidelines
 When this project reaches public release status, contributions will be welcome in these areas:
-- Configuration Management: Implement flexible configuration system
-- Error Handling: Enhance robustness and user feedback
-- Testing: Create test suite and validation procedures
-- Documentation: Improve user guides and technical documentation
-- UI/UX: Develop graphical interface or web frontend
+1. Configuration Management: Implement flexible configuration system
+2. Error Handling: Enhance robustness and user feedback
+3. Testing: Create test suite and validation procedures
+4. Documentation: Improve user guides and technical documentation
+5. UI/UX: Develop graphical interface or web frontend
 
 ## 📝 License
-Will be determined before public release. Currently for private use only.
+
+This project is licensed under the MIT License.
+
+This is a permissive license that allows others to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, provided that the original copyright notice and this permission notice are included in all copies or substantial portions of the Software.
+
+### Summary of Rights:
+✅ You may use, copy, and modify the software for any purpose.
+✅ You may distribute the original or modified software.
+✅ You must include the original copyright and license notice.
+
+⚠️ The software is provided "as is", without warranty of any kind.
+For full details, see the LICENSE file in the root of this repository.
 
 ## ⚠️ Disclaimer
+
 This is development software. Always test with non-critical files and verify output quality before using in production environments.
+
